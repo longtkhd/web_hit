@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500; }
+
+.active {
+  background-color: #4CAF50;
+  color: #f1f1f1; }
+
+p {
+  font-weight: bold;
+  font-size: 30px;
+  padding: 20px 0; }
+
+h1 {
+  line-height: 2.0; }
+
+@media (min-width: 700px) {
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    background-color: #f1f1f1;
+    height: 100%;
+    overflow: auto;
+    float: left;
+    position: absolute; }
+    nav ul li a {
+      display: block;
+      color: #000;
+      padding: 16px 16px;
+      text-decoration: none;
+      text-align: left; }
+      nav ul li a:hover {
+        background-color: #4CAF50;
+        color: #f1f1f1; }
+
+  .container {
+    margin-left: 22%; } }
+@media (min-width: 400px) and (max-width: 700px) {
+  nav ul li {
+    float: left;
+    list-style: none; }
+    nav ul li a {
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none; }
+      nav ul li a:hover {
+        background-color: #4CAF50;
+        color: #f1f1f1; }
+
+  .container {
+    clear: left;
+    margin-left: 14px; } }
+@media screen and (max-width: 400px) {
+  nav ul li {
+    list-style: none; }
+    nav ul li a {
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none; }
+      nav ul li a:hover {
+        background-color: #4CAF50;
+        color: #f1f1f1; }
+
+  .container {
+    margin-left: 14px; } }
+
+/*# sourceMappingURL=style.css.map */
