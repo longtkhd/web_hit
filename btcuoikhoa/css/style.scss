@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    line-height: 1.8;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    ul {
+        list-style: none;
+        width: 100%;
+
+        li {
+            display: inline-block;
+
+            a {
+                display: block;
+                padding: 8px 16px;
+                color: #777;
+                text-decoration: none;
+                font-size: 15px;
+                text-align: center;
+            }
+        }
+    }
+}
+
+.img1 {
+    background-image: url(../imgs/parallax1.jpg);
+    min-height: 100%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-device-width: 1600px) {
+    .img1 {
+        background-attachment: scroll;
+
+        min-height: 400px;
+    }
+}
+
+.content {
+    padding: 64px 16px;
+    max-width: 980px;
+    margin: 0 auto;
+
+    color: #777;
+
+    h3 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .love {
+        text-align: center;
+    }
+
+    p {
+        margin: 15px 0;
+    }
+
+    .profile {
+        padding-top: 15px;
+
+        .left {
+            width: 49%;
+            padding: 12px 24px;
+
+            .hat {
+                max-width: 100%;
+                height: auto;
+            }
+        }
+
+        .right {
+            width: 51%;
+            padding: 12px 24px;
+
+            p {
+                font-size: 15px;
+
+                margin: 15px 0;
+            }
+        }
+
+        .colum {
+            float: left;
+        }
+    }
+}
